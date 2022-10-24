@@ -1,18 +1,119 @@
 * {
-    margin: 100px;
+    margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 body {
-    background-color: red;
+    background-color: rgb(250, 250, 250);
+    padding: 50px;
+    margin: auto;
+}
+
+section {
+    margin-top: 20px;
+    border: 1px solid rgb(219, 219, 219);
 }
 
 section#login {
-    border: 10px 10px solid grey;
     background-color: white;
+    padding: 50px;
+    width: 290px;
+    margin: auto;
+    height: 350px;
+}
+
+i {
+    margin-bottom: 30px;
 }
 
 input {
     display: inline-block;
-    width: 500px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: rgb(250, 250, 250);
+}
+
+section#login button {
+    background-color: rgb(198, 222, 250);
+    color: white;
+    padding: 5px;
+    border: 1px white;
+    border-radius: 3px;
+    width: 268px;
+    font-weight: bold;
+    border-color: white;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a.facebook {
+    color: rgb(61, 80, 129);
+}
+
+a#password {
+   color: rgb(20, 54, 103);
+   font-weight: lighter;
+}
+
+p {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+section#create {
+    background-color: white;
+    padding: 10px;
+    width: 370px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+section#create a {
+    color: rgb(65, 147, 239);
+}
+
+section#create a:visited {
+    color: rgb(65, 147, 239);
+}
+div#download button {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 7px;
+    width: 130px;
+    margin: auto;
+    display: flex;
+}
+
+img {
+    width: 136px;
+    height: 40px;
+    margin: auto;
+}
+
+span {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+footer, select{
+    font-size: 12px;
+    color: rgb(138, 138, 138);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+select {
+    background-color: transparent;
 }
