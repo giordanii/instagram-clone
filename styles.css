@@ -19,9 +19,9 @@ section {
 section#login {
     background-color: white;
     padding: 50px;
-    width: 290px;
+    width: 270px;
     margin: auto;
-    height: 350px;
+    height: 300px;
 }
 
 section#login p {
@@ -41,6 +41,7 @@ input {
     padding: 5px;
     margin-bottom: 5px;
     color: black;
+    margin-left: 7px;
 }
 
 section#login button {
@@ -52,6 +53,7 @@ section#login button {
     width: 268px;
     font-weight: bold;
     border-color: white;
+    margin-left: 7px;
 }
 
 section#login button:enabled {
@@ -67,6 +69,7 @@ a {
 
 a.facebook {
     color: rgb(61, 80, 129);
+    margin-left: 10px;
 }
 
 a#password {
@@ -96,9 +99,20 @@ section#create a:visited {
     color: rgb(65, 147, 239);
 }
 
+div#download {
+    margin: auto;
+}
+
+div#download a {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
 img {
     width: 136px;
     height: 40px;
+    margin-bottom: 30px;
 }
 
 footer {
